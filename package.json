@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/newtypetheory/homework1.git"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/newtypetheory/homework1/issues"
   },
-  "homepage": "https://github.com/newtypetheory/homework1#readme"
+  "homepage": "https://github.com/newtypetheory/homework1#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
